@@ -22,13 +22,12 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
 
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
-	runtimeOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.0")
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.6.0")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+	runtimeOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.6.4")
 
 
 
-	implementation ("org.springframework.boot:spring-boot-starter-webflux")
 	implementation ("org.springframework.boot:spring-boot-starter-data-r2dbc")
 	implementation ("com.github.jasync-sql:jasync-r2dbc-mysql:2.0.8")
 
