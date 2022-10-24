@@ -31,6 +31,10 @@ dependencies {
 	implementation ("org.springframework.boot:spring-boot-starter-webflux")
 	implementation ("org.springframework.boot:spring-boot-starter-data-r2dbc")
 	implementation ("com.github.jasync-sql:jasync-r2dbc-mysql:2.0.8")
+
+
+	testImplementation("io.kotest:kotest-runner-junit5:5.5.1")
+	testImplementation("io.kotest:kotest-assertions-core:5.5.1")
 }
 
 tasks.withType<KotlinCompile> {
