@@ -1,0 +1,7 @@
+spring:
+  r2dbc:
+    username: root
+    password: rhdtkdxor12#
+    url: r2dbc:mysql://127.0.0.1:3306/lift?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Seoul
+
+
