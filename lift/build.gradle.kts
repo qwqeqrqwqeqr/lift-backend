@@ -35,6 +35,7 @@ dependencies {
 
 	testImplementation("io.kotest:kotest-runner-junit5:5.5.1")
 	testImplementation("io.kotest:kotest-assertions-core:5.5.1")
+	testImplementation("io.mockk:mockk:1.12.0")
 }
 
 tasks.withType<KotlinCompile> {
