@@ -21,6 +21,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
+	implementation("org.springframework.boot:spring-boot-starter-hateoas")
 
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 	runtimeOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4")
@@ -36,6 +37,11 @@ dependencies {
 	testImplementation("io.kotest:kotest-assertions-core:5.5.1")
 	testImplementation("io.mockk:mockk:1.12.0")
 
+
+	//fasterxml
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.13.3")
+	implementation("com.fasterxml.jackson.core:jackson-core:2.13.3")
+	implementation ("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.+")
 
 	//swagger
 	implementation("io.springfox:springfox-swagger2:3.0.0")
